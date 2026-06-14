@@ -1,0 +1,13 @@
+{
+  "name": "shopping-list-app",
+  "version": "1.0.0",
+  "description": "바닐라 JS 단일 파일 쇼핑 리스트 앱 (localStorage + Playwright 테스트)",
+  "type": "module",
+  "scripts": {
+    "test": "node test-shopping-list.mjs"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "playwright": "^1.60.0"
+  }
+}
