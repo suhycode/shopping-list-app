@@ -5,7 +5,7 @@ import { fileURLToPath } from 'url';
 import { dirname, join } from 'path';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
-const APP_URL = pathToFileURL(join(__dirname, 'shopping-list.html')).href;
+const APP_URL = pathToFileURL(join(__dirname, 'index.html')).href;
 
 let passed = 0;
 let failed = 0;
